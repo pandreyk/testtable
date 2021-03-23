@@ -1,0 +1,15 @@
+.filter {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.filter input[type='text'] {
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+  outline: none;
+  background-color: azure;
+  width: 40%;
+}

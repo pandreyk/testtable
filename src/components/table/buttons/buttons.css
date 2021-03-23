@@ -1,0 +1,38 @@
+.buttons {
+  position: relative;
+  display: flex;
+  align-self: center;
+  border-radius: 8px;
+  background-color: honeydew;
+}
+
+.button {
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  min-width: 50px;
+  cursor: pointer;
+  background-color: honeydew;
+}
+
+.button:hover {
+  background-color: rgba(216,191,216, 0.5);
+}
+
+.button__selected {
+  background-color: thistle !important;
+}
+
+.button__first, .button__last {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.button__first {
+  left: -36%;
+}
+
+.button__last {
+  right: -36%
+}

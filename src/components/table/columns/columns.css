@@ -1,0 +1,35 @@
+.columns {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+  border-radius: 8px;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
+.columns span {
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.columns__item {
+  display: flex;
+  align-items: center;
+}
+
+.columns__number {
+  width: 5%;
+}
+
+.columns__email {
+  width: 20%;
+}
+
+.columns__name {
+  width: 25%;
+}
+
+.columns__comment {
+  width: 50%;
+}

@@ -1,0 +1,8 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  background-color: azure;
+  padding: 10px;
+  border-radius: 8px;
+}
